@@ -111,3 +111,14 @@ form.button_to {
 .text-danger {
   color: #f38792 !important;
 }
+
+footer{
+  a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+  :hover{
+    color: inherit;
+  }
+}
