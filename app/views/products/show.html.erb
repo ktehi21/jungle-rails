@@ -14,11 +14,6 @@
       </div>
 
       <div class="price">    
-
-        <!-- 
-  <span><%= @product.name %></span>
-  <span><%= @product.price %></span>
-  <span><%= @product.quantity %> in stock at </span>-->  
         <% if @product.quantity.zero? %>
           <button type="button" class="btn btn-danger" id="sold_out">Sold Out</button>
           <button type="button" class="btn btn-success" disabled><%= fa_icon "shopping-cart", text: 'Add' %> </button>
