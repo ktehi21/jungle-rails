@@ -5,13 +5,19 @@
 <br>
 <br>
 
-<div>
-  <h3> How many products you have.. </h3>
-  <p> <%= @product %> </p>
+<div class="dashboard_products">
+  <h4> How many products you have.. </h4>
+  <button type="button" class="btn btn-primary" >
+    <%= link_to @product, admin_products_path %>
+  </button>
+  </span>
+</button>
 </div>
-<br>
+
 
 <div>
-  <h3> How many categories you have... </h3>
-  <p> <%= @category %> </p>
+  <h4> How many categories you have... </h4>
+  <button type="button" class="btn btn-primary">
+    <%= @category %>
+  </button>
 </div>
