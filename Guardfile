@@ -15,8 +15,7 @@
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
-guard :shell do
-  watch(/^(.*)\.rb$/) do |m|
-    system('puma stop') # spring 재시작
-  end
+guard :rails, port: 3000, host: '0.0.0.0' do
+  watch('Gemfile.lock')
+  watch('.*')
 end
