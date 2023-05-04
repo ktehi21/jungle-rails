@@ -29,3 +29,20 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+- Fake card number for payment : 4111 1111 1111 1111/ 1234/ 123
+<!-- 
+root               GET / products#index
+products           GET /products(.:format) products#index
+product            GET /products/:id(.:format) products#show
+category           GET /categories/:id(.:format) categories#show
+add_item_cart      POST /cart/add_item(.:format) carts#add_item
+remove_item_cart   POST /cart/remove_item(.:format) carts#remove_item
+cart               GET /cart(.:format) carts#show
+orders             POST /orders(.:format) orders#create
+order              GET /orders/:id(.:format) orders#show
+admin_root         GET /admin(.:format) admin/dashboard#show
+admin_products     GET /admin/products(.:format) admin/products#index
+                   POST /admin/products(.:format) admin/products#create
+new_admin_product  GET /admin/products/new(.:format) admin/products#new
+admin_product      DELETE /admin/products/:id(.:format) -->

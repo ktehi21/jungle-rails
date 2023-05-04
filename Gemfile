@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -44,6 +45,11 @@ gem 'rmagick'
 gem 'faker'
 gem 'carrierwave'
 
+# Javascript 
+gem 'execjs'
+
+# ERB Formatter
+gem 'erb-formatter'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -67,6 +73,8 @@ group :development do
   gem 'listen', '~> 3.3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+
   
 end
 
