@@ -1,18 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-
-  # it 'will save a product with all four fields set' do
-  #   @category = Category.create(name: "First Category")
-  #   @product = Product.new(name: "First Product", price: 250, quantity: 12, category: @category)
-
-  #   expect(@product.save).to be(true)
-
-  #   @product.errors.full_messages.each do |error_message|
-  #     puts error_message
-  #   end
-    
-  # end
   
   describe 'Validations' do
     
