@@ -51,22 +51,6 @@ RSpec.describe Product, type: :model do
       expect(@product.valid?).to be(false)
       expect(@product.errors.full_messages).to include("Category can't be blank")
     end
-    
-    # it "validates quantity for ture" do 
-    #   # validates :quantity, presence: true
-    # end
-    
-    # it "validates category for ture" do 
-    #   # validates :category, presence: true
-    # end
-
-    # it "includes the expected error message" do
-    #   # Perform an action that triggers an error
-    #   # ...
-
-    #   # Assert that the error message is included in errors.full_messages
-    #   expect(object.errors.full_messages).to include("Expected Error Message")
-    # end
 
   end
 
