@@ -36,3 +36,24 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Admin page
 
 Use the admin ID: Jungle, password: book
+
+## Screenshots
+
+- Main page
+!["Main page"](https://raw.githubusercontent.com/ktehi21/jungle-rails/master/docs/01_main_page.png)
+
+- Admin page
+!["Admin login"](https://raw.githubusercontent.com/ktehi21/jungle-rails/master/docs/02_admin_login.png)
+!["Admin product page"](https://raw.githubusercontent.com/ktehi21/jungle-rails/master/docs/03_admin_page.png)
+
+- After user login "Signed in as / logout"
+!["After user login"](https://raw.githubusercontent.com/ktehi21/jungle-rails/master/docs/04_user_logined.png)
+
+- Soldout badge / disable add button
+!["Soldout badge"](https://raw.githubusercontent.com/ktehi21/jungle-rails/master/docs/05_sold_out.png)
+
+- Cart page
+!["Cart page"](https://raw.githubusercontent.com/ktehi21/jungle-rails/master/docs/06_cart.png)
+
+- Order detail page
+!["Order detail"](https://raw.githubusercontent.com/ktehi21/jungle-rails/master/docs/07_order_completed.png)
