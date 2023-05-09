@@ -19,7 +19,7 @@ If Rails is complaining about authentication to the database, uncomment the user
 
 ## Stripe Testing
 
-Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
+Use Credit Card # 4111 1111 1111 1111/ 1234/ 123 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
@@ -30,7 +30,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - PostgreSQL 9.x
 - Stripe
 
-- Fake card number for payment : 4111 1111 1111 1111/ 1234/ 123
 <!-- 
 root               GET / products#index
 products           GET /products(.:format) products#index
