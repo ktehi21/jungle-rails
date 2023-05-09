@@ -13,4 +13,10 @@
   Password Confirmation: <%= f.password_field :password_confirmation %>
   <%= f.submit "Submit" %>
 
+  <% if @user.errors.any? %>
+    <%= @user.errors.full_messages do | message| %>
+      <%= message %>
+    <% end %>
+  <% end %>
+
 <% end %>
